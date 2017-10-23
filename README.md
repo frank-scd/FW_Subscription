@@ -2,18 +2,11 @@
 --------------------------------------------------------------------------------------------------------------------------------------
 Steps to before installing module
 
-1. Make 2 product attributes
-    i) "digital_parent" of type text
-    ii) "digital_fulfillment_date" of type date
-    iii) "flag" of type text
-
-2. Assign the new created attribute to attribute set.
-
-3. Go to catalog product in downloadable product make the price of the product 0$ and  in general tab Visiblity option seletc "Not visible Individualy" and click save.
-
-4. In system->configuration->transactional->email click on add "Add New Template"
-5. Add the subject and name of template.
-6. In Template content section paste following content.
+1. Go to catalog product in downloadable product make the price of the product 0$ and  in general tab Visiblity option seletc "Not visible Individualy" and click save.
+2. Add the values for digital_fullfilment_date and digital_parent.
+3. In system->configuration->transactional->email click on add "Add New Template"
+4. Add the subject and name of template.
+5. In Template content section paste following content.
 
 <div style="border: 5px solid;">
         
