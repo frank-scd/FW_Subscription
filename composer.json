@@ -1,0 +1,13 @@
+{
+    "name": "fwcommunity/magento-fw-subscriptions",
+    "description": "F+W Media: Digital Subscription Fulfillment",
+    "license": "OSL-3.0",
+    "authors": [
+        { "name": "Frank Jones", "email": "frank@saltcitydigital.com", "role": "SCD Developer" },
+        { "name": "Darrell Starnes", "email": "darrell.starnes@fwmedia.com", "role": "Developer" }
+    ],
+    "type": "magento-module",
+    "require": {
+        "php": ">=5.6.0"
+    }
+}
